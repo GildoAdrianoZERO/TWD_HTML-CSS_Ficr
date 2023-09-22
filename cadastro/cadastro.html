@@ -11,7 +11,7 @@
     ></script> 
     <script src="https://kit.fontawesome.com/48d0a7227b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="cadastro.css" />
   </head>
 
   <body id="body">
@@ -20,7 +20,7 @@
       <form id="login_form">
           <!-- FORM HEADER -->
           <div id="form_header">
-              <h1>Login</h1>
+              <h1>Cadastro</h1>
               <i id="mode_icon" class="fa-solid fa-moon"></i>
           </div>
 
@@ -44,7 +44,26 @@
 
           <!-- INPUTS -->
           <div id="inputs">
-              
+              <!-- NAME -->
+              <div class="input-box">
+                  <label for="name">
+                      Nome Completo
+                      <div class="input-field">
+                          <i class="fa-solid fa-user"></i>
+                          <input type="text" id="name" name="name">
+                      </div>
+                  </label>
+              </div>
+
+              <div class="input-box">
+                <label for="name">
+                    CPF
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="number" id="name" name="name">
+                    </div>
+                </label>
+            </div>
               
               <!-- EMAIL -->
               <div class="input-box">
@@ -70,7 +89,7 @@
                   <!-- FORGOT PASSWORD -->
                   <div id="forgot_password">
                       <a href="#">
-                          Esqueceu a senha? <a href="../cadastro/cadastro.html">cadastre-se!</a>
+                          Possui login? <a href="../login/login.html"> Entrar.</a>
                       </a>
                   </div>
               </div>
@@ -78,13 +97,13 @@
 
           <!-- LOGIN BUTTON -->
           <button type="submit" id="login_button">
-              Login
+              Cadastrar
           </button>
       </form>
   </main>
 
   <!-- JAVASCRIPT -->
-  <script type="text/javascript" src="login.js"></script>
+  <script type="text/javascript" src="cadastro.js"></script>
         
    
 </div>
